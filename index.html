@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="home">
+            <div class="content">
+                <img src="doodle.png" alt="Doodle of a person">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo, velit eget maximus tempus, nunc velit tristique nisi, et volutpat velit nunc et nisi.</p>
+                <button>Contact Me</button>
+            </div>
+        </section>
+        <section id="about">
+            <h2>Education</h2>
+            <div class="card">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo, velit eget maximus tempus, nunc velit tristique nisi, et volutpat velit nunc et nisi.</p>
+                <button>Show More</button>
+            </div>
+            <h2>Experience</h2>
+            <div class="card">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo, velit eget maximus tempus, nunc velit tristique nisi, et volutpat velit nunc et nisi.</p>
+                <button>Show More</button>
+            </div>
+            <h2>Projects</h2>
+            <div class="card">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo, velit eget maximus tempus, nunc velit tristique nisi, et volutpat velit nunc et nisi.</p>
+                <button>Show More</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright © 2024 My Portfolio</p>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+    </footer>
+    <script>
+        const contactMeButton = document.getElementById("contact-me-button");
+
+contactMeButton.addEventListener("click", () => {
+    alert("Contact form submitted!");
+});
+    </script>
+</body>
+</html>
